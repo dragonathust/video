@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VGA2USB - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\TEMP\RSP6EFA.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/VGA2USB.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Source Code\VGA2Ethernet\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP6EFA.tmp" 
+Creating temporary file "C:\TEMP\RSP6EFB.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/VGA2Ethernet.pdb" /debug /machine:I386 /out:"Debug/VGA2Ethernet.exe" /pdbtype:sept 
+".\Debug\ChildView.obj"
+".\Debug\Decode.obj"
+".\Debug\Frmgrab.obj"
+".\Debug\HID.obj"
+".\Debug\HyperLink.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Netclient.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TrueColorToolBar.obj"
+".\Debug\VGA2USB.obj"
+".\Debug\VGA2USB.res"
+]
+Creating command line "link.exe @C:\TEMP\RSP6EFB.tmp"
+<h3>Output Window</h3>
+Compiling...
+MainFrm.cpp
+Linking...
+Creating temporary file "C:\TEMP\RSP70B1.tmp" with contents
+[
+/nologo /o"Debug/VGA2USB.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\ChildView.sbr"
+".\Debug\Decode.sbr"
+".\Debug\Frmgrab.sbr"
+".\Debug\HID.sbr"
+".\Debug\HyperLink.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\Netclient.sbr"
+".\Debug\TrueColorToolBar.sbr"
+".\Debug\VGA2USB.sbr"]
+Creating command line "bscmake.exe @C:\TEMP\RSP70B1.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+VGA2Ethernet.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
